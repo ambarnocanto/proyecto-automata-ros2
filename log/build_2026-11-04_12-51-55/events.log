@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.003231] (bateria_sim) JobQueued: {'identifier': 'bateria_sim', 'dependencies': OrderedDict()}
+[0.003426] (emulador_sensores) JobQueued: {'identifier': 'emulador_sensores', 'dependencies': OrderedDict()}
+[0.005140] (bateria_sim) JobStarted: {'identifier': 'bateria_sim'}
+[0.070992] (emulador_sensores) JobStarted: {'identifier': 'emulador_sensores'}
+[0.103923] (-) TimerEvent: {}
+[0.207087] (-) TimerEvent: {}
+[0.311826] (-) TimerEvent: {}
+[0.413165] (-) TimerEvent: {}
+[0.514603] (-) TimerEvent: {}
+[0.621980] (-) TimerEvent: {}
+[0.723455] (-) TimerEvent: {}
+[0.824703] (-) TimerEvent: {}
+[0.925561] (-) TimerEvent: {}
+[1.026716] (-) TimerEvent: {}
+[1.130636] (-) TimerEvent: {}
+[1.232395] (-) TimerEvent: {}
+[1.334974] (-) TimerEvent: {}
+[1.437964] (-) TimerEvent: {}
+[1.541347] (-) TimerEvent: {}
+[1.646496] (-) TimerEvent: {}
+[1.752170] (-) TimerEvent: {}
+[1.857865] (-) TimerEvent: {}
+[1.962147] (-) TimerEvent: {}
+[2.065842] (-) TimerEvent: {}
+[2.167385] (-) TimerEvent: {}
+[2.270452] (-) TimerEvent: {}
+[2.373940] (-) TimerEvent: {}
+[2.476167] (-) TimerEvent: {}
+[2.578433] (-) TimerEvent: {}
+[2.681282] (-) TimerEvent: {}
+[2.783440] (-) TimerEvent: {}
+[2.888211] (-) TimerEvent: {}
+[2.990771] (-) TimerEvent: {}
+[3.093108] (-) TimerEvent: {}
+[3.194763] (-) TimerEvent: {}
+[3.298960] (-) TimerEvent: {}
+[3.403791] (-) TimerEvent: {}
+[3.507856] (-) TimerEvent: {}
+[3.609397] (-) TimerEvent: {}
+[3.712803] (-) TimerEvent: {}
+[3.814740] (-) TimerEvent: {}
+[3.915898] (-) TimerEvent: {}
+[4.021368] (-) TimerEvent: {}
+[4.123078] (-) TimerEvent: {}
+[4.229654] (-) TimerEvent: {}
+[4.331808] (-) TimerEvent: {}
+[4.433423] (-) TimerEvent: {}
+[4.537894] (-) TimerEvent: {}
+[4.641614] (-) TimerEvent: {}
+[4.742314] (-) TimerEvent: {}
+[4.843759] (-) TimerEvent: {}
+[4.944348] (-) TimerEvent: {}
+[5.050733] (-) TimerEvent: {}
+[5.152748] (-) TimerEvent: {}
+[5.256508] (-) TimerEvent: {}
+[5.358799] (-) TimerEvent: {}
+[5.463477] (-) TimerEvent: {}
+[5.565345] (-) TimerEvent: {}
+[5.668843] (-) TimerEvent: {}
+[5.772095] (-) TimerEvent: {}
+[5.877002] (-) TimerEvent: {}
+[5.977623] (-) TimerEvent: {}
+[6.078407] (-) TimerEvent: {}
+[6.184272] (-) TimerEvent: {}
+[6.287934] (-) TimerEvent: {}
+[6.389012] (-) TimerEvent: {}
+[6.491838] (-) TimerEvent: {}
+[6.592609] (-) TimerEvent: {}
+[6.693752] (-) TimerEvent: {}
+[6.800900] (-) TimerEvent: {}
+[6.905117] (-) TimerEvent: {}
+[7.008933] (-) TimerEvent: {}
+[7.111462] (-) TimerEvent: {}
+[7.214032] (-) TimerEvent: {}
+[7.317783] (-) TimerEvent: {}
+[7.421820] (-) TimerEvent: {}
+[7.487153] (bateria_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lu/ros2_ws/build/bateria_sim/build', '--no-deps', 'symlink_data'], 'cwd': '/home/lu/ros2_ws/build/bateria_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lu'), ('OLDPWD', '/home/lu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1290'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lu-virtual-machine:@/tmp/.ICE-unix/1262,unix/lu-virtual-machine:/tmp/.ICE-unix/1262'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2c32b20f_5cbb_434b_b6c5_ef347f2dcf10'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3HKVX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lu/ros2_ws/install/emulador_sensores:/home/lu/ros2_ws/install/bateria_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lu/ros2_ws/build/bateria_sim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lu/ros2_ws/build/bateria_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:/home/lu/ros2_ws/build/emulador_sensores:/home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages:/home/lu/ros2_ws/build/bateria_sim:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[7.522032] (-) TimerEvent: {}
+[7.624597] (-) TimerEvent: {}
+[7.731583] (-) TimerEvent: {}
+[7.836965] (-) TimerEvent: {}
+[7.942430] (-) TimerEvent: {}
+[8.044396] (-) TimerEvent: {}
+[8.148872] (-) TimerEvent: {}
+[8.250498] (-) TimerEvent: {}
+[8.264870] (emulador_sensores) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lu/ros2_ws/build/emulador_sensores/build', '--no-deps', 'symlink_data'], 'cwd': '/home/lu/ros2_ws/build/emulador_sensores', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lu'), ('OLDPWD', '/home/lu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1290'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lu-virtual-machine:@/tmp/.ICE-unix/1262,unix/lu-virtual-machine:/tmp/.ICE-unix/1262'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2c32b20f_5cbb_434b_b6c5_ef347f2dcf10'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3HKVX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lu/ros2_ws/install/emulador_sensores:/home/lu/ros2_ws/install/bateria_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lu/ros2_ws/build/emulador_sensores'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lu/ros2_ws/build/emulador_sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages:/home/lu/ros2_ws/build/emulador_sensores:/home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages:/home/lu/ros2_ws/build/bateria_sim:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[8.353970] (-) TimerEvent: {}
+[8.457284] (-) TimerEvent: {}
+[8.561055] (-) TimerEvent: {}
+[8.666810] (-) TimerEvent: {}
+[8.769033] (-) TimerEvent: {}
+[8.877095] (-) TimerEvent: {}
+[8.979776] (-) TimerEvent: {}
+[9.082003] (-) TimerEvent: {}
+[9.185321] (-) TimerEvent: {}
+[9.292018] (-) TimerEvent: {}
+[9.348513] (bateria_sim) StdoutLine: {'line': b'running develop\n'}
+[9.393145] (-) TimerEvent: {}
+[9.497996] (-) TimerEvent: {}
+[9.599008] (-) TimerEvent: {}
+[9.703787] (-) TimerEvent: {}
+[9.809428] (-) TimerEvent: {}
+[9.922269] (-) TimerEvent: {}
+[10.026914] (-) TimerEvent: {}
+[10.131885] (-) TimerEvent: {}
+[10.192332] (emulador_sensores) StdoutLine: {'line': b'running develop\n'}
+[10.244058] (-) TimerEvent: {}
+[10.345284] (-) TimerEvent: {}
+[10.455822] (-) TimerEvent: {}
+[10.560001] (-) TimerEvent: {}
+[10.603783] (bateria_sim) StdoutLine: {'line': b'running egg_info\n'}
+[10.606920] (bateria_sim) StdoutLine: {'line': b'writing bateria_sim.egg-info/PKG-INFO\n'}
+[10.612705] (bateria_sim) StdoutLine: {'line': b'writing dependency_links to bateria_sim.egg-info/dependency_links.txt\n'}
+[10.626928] (bateria_sim) StdoutLine: {'line': b'writing entry points to bateria_sim.egg-info/entry_points.txt\n'}
+[10.627637] (bateria_sim) StdoutLine: {'line': b'writing requirements to bateria_sim.egg-info/requires.txt\n'}
+[10.628144] (bateria_sim) StdoutLine: {'line': b'writing top-level names to bateria_sim.egg-info/top_level.txt\n'}
+[10.642566] (bateria_sim) StdoutLine: {'line': b"reading manifest file 'bateria_sim.egg-info/SOURCES.txt'\n"}
+[10.650141] (bateria_sim) StdoutLine: {'line': b"writing manifest file 'bateria_sim.egg-info/SOURCES.txt'\n"}
+[10.660279] (-) TimerEvent: {}
+[10.676904] (bateria_sim) StdoutLine: {'line': b'running build_ext\n'}
+[10.677412] (bateria_sim) StdoutLine: {'line': b'Creating /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria-sim.egg-link (link to .)\n'}
+[10.683788] (bateria_sim) StdoutLine: {'line': b'Installing bateria_sim_node script to /home/lu/ros2_ws/install/bateria_sim/lib/bateria_sim\n'}
+[10.687927] (bateria_sim) StdoutLine: {'line': b'\n'}
+[10.689001] (bateria_sim) StdoutLine: {'line': b'Installed /home/lu/ros2_ws/build/bateria_sim\n'}
+[10.689227] (bateria_sim) StdoutLine: {'line': b'running symlink_data\n'}
+[10.761380] (-) TimerEvent: {}
+[10.864701] (-) TimerEvent: {}
+[10.914641] (bateria_sim) CommandEnded: {'returncode': 0}
+[10.970862] (-) TimerEvent: {}
+[10.992665] (bateria_sim) JobEnded: {'identifier': 'bateria_sim', 'rc': 0}
+[11.071068] (-) TimerEvent: {}
+[11.173597] (-) TimerEvent: {}
+[11.276088] (-) TimerEvent: {}
+[11.377946] (-) TimerEvent: {}
+[11.479189] (-) TimerEvent: {}
+[11.514137] (emulador_sensores) StdoutLine: {'line': b'running egg_info\n'}
+[11.514455] (emulador_sensores) StdoutLine: {'line': b'writing emulador_sensores.egg-info/PKG-INFO\n'}
+[11.514658] (emulador_sensores) StdoutLine: {'line': b'writing dependency_links to emulador_sensores.egg-info/dependency_links.txt\n'}
+[11.515360] (emulador_sensores) StdoutLine: {'line': b'writing entry points to emulador_sensores.egg-info/entry_points.txt\n'}
+[11.516590] (emulador_sensores) StdoutLine: {'line': b'writing requirements to emulador_sensores.egg-info/requires.txt\n'}
+[11.520744] (emulador_sensores) StdoutLine: {'line': b'writing top-level names to emulador_sensores.egg-info/top_level.txt\n'}
+[11.539103] (emulador_sensores) StdoutLine: {'line': b"reading manifest file 'emulador_sensores.egg-info/SOURCES.txt'\n"}
+[11.546169] (emulador_sensores) StdoutLine: {'line': b"writing manifest file 'emulador_sensores.egg-info/SOURCES.txt'\n"}
+[11.560776] (emulador_sensores) StdoutLine: {'line': b'running build_ext\n'}
+[11.561833] (emulador_sensores) StdoutLine: {'line': b'Creating /home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages/emulador-sensores.egg-link (link to .)\n'}
+[11.570321] (emulador_sensores) StdoutLine: {'line': b'Installing emulador_sensores_node script to /home/lu/ros2_ws/install/emulador_sensores/lib/emulador_sensores\n'}
+[11.573006] (emulador_sensores) StdoutLine: {'line': b'\n'}
+[11.573787] (emulador_sensores) StdoutLine: {'line': b'Installed /home/lu/ros2_ws/build/emulador_sensores\n'}
+[11.574169] (emulador_sensores) StdoutLine: {'line': b'running symlink_data\n'}
+[11.579322] (-) TimerEvent: {}
+[11.689338] (-) TimerEvent: {}
+[11.726847] (emulador_sensores) CommandEnded: {'returncode': 0}
+[11.774349] (emulador_sensores) JobEnded: {'identifier': 'emulador_sensores', 'rc': 0}
+[11.780550] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/bateria_sim/bateria_sim.egg-info
+writing ../../build/bateria_sim/bateria_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/bateria_sim/bateria_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/bateria_sim/bateria_sim.egg-info/entry_points.txt
+writing requirements to ../../build/bateria_sim/bateria_sim.egg-info/requires.txt
+writing top-level names to ../../build/bateria_sim/bateria_sim.egg-info/top_level.txt
+writing manifest file '../../build/bateria_sim/bateria_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/bateria_sim/bateria_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/bateria_sim/bateria_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lu/ros2_ws/build/bateria_sim/build
+creating /home/lu/ros2_ws/build/bateria_sim/build/lib
+creating /home/lu/ros2_ws/build/bateria_sim/build/lib/bateria_sim
+copying bateria_sim/bateria_sim_node.py -> /home/lu/ros2_ws/build/bateria_sim/build/lib/bateria_sim
+copying bateria_sim/__init__.py -> /home/lu/ros2_ws/build/bateria_sim/build/lib/bateria_sim
+running install
+running install_lib
+creating /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim
+copying /home/lu/ros2_ws/build/bateria_sim/build/lib/bateria_sim/bateria_sim_node.py -> /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim
+copying /home/lu/ros2_ws/build/bateria_sim/build/lib/bateria_sim/__init__.py -> /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim
+byte-compiling /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim/bateria_sim_node.py to bateria_sim_node.cpython-310.pyc
+byte-compiling /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/lu/ros2_ws/install/bateria_sim/share/ament_index
+creating /home/lu/ros2_ws/install/bateria_sim/share/ament_index/resource_index
+creating /home/lu/ros2_ws/install/bateria_sim/share/ament_index/resource_index/packages
+copying resource/bateria_sim -> /home/lu/ros2_ws/install/bateria_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/lu/ros2_ws/install/bateria_sim/share/bateria_sim
+running install_egg_info
+Copying ../../build/bateria_sim/bateria_sim.egg-info to /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim-0.1.0-py3.10.egg-info
+running install_scripts
+Installing bateria_sim_node script to /home/lu/ros2_ws/install/bateria_sim/lib/bateria_sim
+writing list of installed files to '/home/lu/ros2_ws/build/bateria_sim/install.log'

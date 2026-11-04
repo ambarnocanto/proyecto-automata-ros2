@@ -1,0 +1,9 @@
+source;share/emulador_sensores/hook/pythonpath.ps1
+source;share/emulador_sensores/hook/pythonpath.dsv
+source;share/emulador_sensores/hook/pythonpath.sh
+source;share/emulador_sensores/hook/ament_prefix_path.ps1
+source;share/emulador_sensores/hook/ament_prefix_path.dsv
+source;share/emulador_sensores/hook/ament_prefix_path.sh
+source;../../build/emulador_sensores/share/emulador_sensores/hook/pythonpath_develop.ps1
+source;../../build/emulador_sensores/share/emulador_sensores/hook/pythonpath_develop.dsv
+source;../../build/emulador_sensores/share/emulador_sensores/hook/pythonpath_develop.sh

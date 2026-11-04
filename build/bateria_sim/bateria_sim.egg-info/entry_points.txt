@@ -1,0 +1,3 @@
+[console_scripts]
+bateria_sim_node = bateria_sim.bateria_sim_node:main
+

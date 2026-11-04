@@ -1,0 +1,3 @@
+[console_scripts]
+emulador_sensores_node = emulador_sensores.emulador_sensores_node:main
+

@@ -1,0 +1,37 @@
+[1.194s] Invoking command in '/home/lu/ros2_ws/src/bateria_sim': PYTHONPATH=/home/lu/ros2_ws/build/bateria_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bateria_sim build --build-base /home/lu/ros2_ws/build/bateria_sim/build install --record /home/lu/ros2_ws/build/bateria_sim/install.log --install-scripts $base/lib/bateria_sim --single-version-externally-managed install_data
+[1.399s] running egg_info
+[1.400s] creating ../../build/bateria_sim/bateria_sim.egg-info
+[1.400s] writing ../../build/bateria_sim/bateria_sim.egg-info/PKG-INFO
+[1.401s] writing dependency_links to ../../build/bateria_sim/bateria_sim.egg-info/dependency_links.txt
+[1.401s] writing entry points to ../../build/bateria_sim/bateria_sim.egg-info/entry_points.txt
+[1.401s] writing requirements to ../../build/bateria_sim/bateria_sim.egg-info/requires.txt
+[1.402s] writing top-level names to ../../build/bateria_sim/bateria_sim.egg-info/top_level.txt
+[1.402s] writing manifest file '../../build/bateria_sim/bateria_sim.egg-info/SOURCES.txt'
+[1.404s] reading manifest file '../../build/bateria_sim/bateria_sim.egg-info/SOURCES.txt'
+[1.408s] writing manifest file '../../build/bateria_sim/bateria_sim.egg-info/SOURCES.txt'
+[1.408s] running build
+[1.408s] running build_py
+[1.408s] creating /home/lu/ros2_ws/build/bateria_sim/build
+[1.408s] creating /home/lu/ros2_ws/build/bateria_sim/build/lib
+[1.409s] creating /home/lu/ros2_ws/build/bateria_sim/build/lib/bateria_sim
+[1.409s] copying bateria_sim/bateria_sim_node.py -> /home/lu/ros2_ws/build/bateria_sim/build/lib/bateria_sim
+[1.409s] copying bateria_sim/__init__.py -> /home/lu/ros2_ws/build/bateria_sim/build/lib/bateria_sim
+[1.409s] running install
+[1.409s] running install_lib
+[1.409s] creating /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim
+[1.410s] copying /home/lu/ros2_ws/build/bateria_sim/build/lib/bateria_sim/bateria_sim_node.py -> /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim
+[1.410s] copying /home/lu/ros2_ws/build/bateria_sim/build/lib/bateria_sim/__init__.py -> /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim
+[1.412s] byte-compiling /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim/bateria_sim_node.py to bateria_sim_node.cpython-310.pyc
+[1.412s] byte-compiling /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim/__init__.py to __init__.cpython-310.pyc
+[1.412s] running install_data
+[1.412s] creating /home/lu/ros2_ws/install/bateria_sim/share/ament_index
+[1.412s] creating /home/lu/ros2_ws/install/bateria_sim/share/ament_index/resource_index
+[1.412s] creating /home/lu/ros2_ws/install/bateria_sim/share/ament_index/resource_index/packages
+[1.412s] copying resource/bateria_sim -> /home/lu/ros2_ws/install/bateria_sim/share/ament_index/resource_index/packages
+[1.413s] copying package.xml -> /home/lu/ros2_ws/install/bateria_sim/share/bateria_sim
+[1.413s] running install_egg_info
+[1.414s] Copying ../../build/bateria_sim/bateria_sim.egg-info to /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim-0.1.0-py3.10.egg-info
+[1.416s] running install_scripts
+[1.436s] Installing bateria_sim_node script to /home/lu/ros2_ws/install/bateria_sim/lib/bateria_sim
+[1.437s] writing list of installed files to '/home/lu/ros2_ws/build/bateria_sim/install.log'
+[1.493s] Invoked command in '/home/lu/ros2_ws/src/bateria_sim' returned '0': PYTHONPATH=/home/lu/ros2_ws/build/bateria_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bateria_sim build --build-base /home/lu/ros2_ws/build/bateria_sim/build install --record /home/lu/ros2_ws/build/bateria_sim/install.log --install-scripts $base/lib/bateria_sim --single-version-externally-managed install_data

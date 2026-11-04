@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/emulador_sensores/emulador_sensores.egg-info
+writing ../../build/emulador_sensores/emulador_sensores.egg-info/PKG-INFO
+writing dependency_links to ../../build/emulador_sensores/emulador_sensores.egg-info/dependency_links.txt
+writing entry points to ../../build/emulador_sensores/emulador_sensores.egg-info/entry_points.txt
+writing requirements to ../../build/emulador_sensores/emulador_sensores.egg-info/requires.txt
+writing top-level names to ../../build/emulador_sensores/emulador_sensores.egg-info/top_level.txt
+writing manifest file '../../build/emulador_sensores/emulador_sensores.egg-info/SOURCES.txt'
+reading manifest file '../../build/emulador_sensores/emulador_sensores.egg-info/SOURCES.txt'
+writing manifest file '../../build/emulador_sensores/emulador_sensores.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lu/ros2_ws/build/emulador_sensores/build
+creating /home/lu/ros2_ws/build/emulador_sensores/build/lib
+creating /home/lu/ros2_ws/build/emulador_sensores/build/lib/emulador_sensores
+copying emulador_sensores/emulador_sensores_node.py -> /home/lu/ros2_ws/build/emulador_sensores/build/lib/emulador_sensores
+copying emulador_sensores/__init__.py -> /home/lu/ros2_ws/build/emulador_sensores/build/lib/emulador_sensores
+running install
+running install_lib
+creating /home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages/emulador_sensores
+copying /home/lu/ros2_ws/build/emulador_sensores/build/lib/emulador_sensores/emulador_sensores_node.py -> /home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages/emulador_sensores
+copying /home/lu/ros2_ws/build/emulador_sensores/build/lib/emulador_sensores/__init__.py -> /home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages/emulador_sensores
+byte-compiling /home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages/emulador_sensores/emulador_sensores_node.py to emulador_sensores_node.cpython-310.pyc
+byte-compiling /home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages/emulador_sensores/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/lu/ros2_ws/install/emulador_sensores/share/ament_index
+creating /home/lu/ros2_ws/install/emulador_sensores/share/ament_index/resource_index
+creating /home/lu/ros2_ws/install/emulador_sensores/share/ament_index/resource_index/packages
+copying resource/emulador_sensores -> /home/lu/ros2_ws/install/emulador_sensores/share/ament_index/resource_index/packages
+copying package.xml -> /home/lu/ros2_ws/install/emulador_sensores/share/emulador_sensores
+running install_egg_info
+Copying ../../build/emulador_sensores/emulador_sensores.egg-info to /home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages/emulador_sensores-0.1.0-py3.10.egg-info
+running install_scripts
+Installing emulador_sensores_node script to /home/lu/ros2_ws/install/emulador_sensores/lib/emulador_sensores
+writing list of installed files to '/home/lu/ros2_ws/build/emulador_sensores/install.log'

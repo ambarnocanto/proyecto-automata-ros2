@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<package format="3">
+  <name>emulador_sensores</name>
+  <version>0.1.0</version>
+
+  <description>
+    Emulador de sensores laterales y frontal
+    a partir del LiDAR del TurtleBot3.
+  </description>
+
+  <maintainer email="launaranjo@est.ecotec.edu.ec">laura</maintainer>
+
+  <license>LicenseRef-Proprietary</license>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,17 @@
+[8.195s] Invoking command in '/home/lu/ros2_ws/build/emulador_sensores': PYTHONPATH=/home/lu/ros2_ws/build/emulador_sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lu/ros2_ws/build/emulador_sensores/build --no-deps symlink_data
+[10.122s] running develop
+[11.443s] running egg_info
+[11.443s] writing emulador_sensores.egg-info/PKG-INFO
+[11.444s] writing dependency_links to emulador_sensores.egg-info/dependency_links.txt
+[11.444s] writing entry points to emulador_sensores.egg-info/entry_points.txt
+[11.446s] writing requirements to emulador_sensores.egg-info/requires.txt
+[11.451s] writing top-level names to emulador_sensores.egg-info/top_level.txt
+[11.475s] reading manifest file 'emulador_sensores.egg-info/SOURCES.txt'
+[11.475s] writing manifest file 'emulador_sensores.egg-info/SOURCES.txt'
+[11.490s] running build_ext
+[11.491s] Creating /home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages/emulador-sensores.egg-link (link to .)
+[11.500s] Installing emulador_sensores_node script to /home/lu/ros2_ws/install/emulador_sensores/lib/emulador_sensores
+[11.502s] 
+[11.503s] Installed /home/lu/ros2_ws/build/emulador_sensores
+[11.503s] running symlink_data
+[11.657s] Invoked command in '/home/lu/ros2_ws/build/emulador_sensores' returned '0': PYTHONPATH=/home/lu/ros2_ws/build/emulador_sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lu/ros2_ws/build/emulador_sensores/build --no-deps symlink_data
