@@ -10,6 +10,7 @@ setup.py
 ../../build/bateria_sim/bateria_sim.egg-info/zip-safe
 bateria_sim/__init__.py
 bateria_sim/bateria_sim_node.py
+bateria_sim/nodo_supervisor.py
 bateria_sim.egg-info/PKG-INFO
 bateria_sim.egg-info/SOURCES.txt
 bateria_sim.egg-info/dependency_links.txt

@@ -1,0 +1,18 @@
+[2.048s] Invoking command in '/home/lu/ros2_ws/build/bateria_sim': PYTHONPATH=/home/lu/ros2_ws/build/bateria_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lu/ros2_ws/build/bateria_sim/build --no-deps symlink_data
+[2.385s] running develop
+[2.589s] running egg_info
+[2.589s] writing bateria_sim.egg-info/PKG-INFO
+[2.590s] writing dependency_links to bateria_sim.egg-info/dependency_links.txt
+[2.590s] writing entry points to bateria_sim.egg-info/entry_points.txt
+[2.591s] writing requirements to bateria_sim.egg-info/requires.txt
+[2.591s] writing top-level names to bateria_sim.egg-info/top_level.txt
+[2.592s] reading manifest file 'bateria_sim.egg-info/SOURCES.txt'
+[2.593s] writing manifest file 'bateria_sim.egg-info/SOURCES.txt'
+[2.595s] running build_ext
+[2.595s] Creating /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria-sim.egg-link (link to .)
+[2.596s] Installing bateria_sim_node script to /home/lu/ros2_ws/install/bateria_sim/lib/bateria_sim
+[2.596s] Installing nodo_supervisor script to /home/lu/ros2_ws/install/bateria_sim/lib/bateria_sim
+[2.596s] 
+[2.596s] Installed /home/lu/ros2_ws/build/bateria_sim
+[2.596s] running symlink_data
+[2.625s] Invoked command in '/home/lu/ros2_ws/build/bateria_sim' returned '0': PYTHONPATH=/home/lu/ros2_ws/build/bateria_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lu/ros2_ws/build/bateria_sim/build --no-deps symlink_data

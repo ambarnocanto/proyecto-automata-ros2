@@ -1,0 +1,189 @@
+[0.197s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.198s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b56c9b5b160>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b56c9b5ab60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b56c9b5ab60>>, mixin_verb=('build',))
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.431s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lu/ros2_ws'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/bateria_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/bateria_sim) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/bateria_sim) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/bateria_sim) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/bateria_sim) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/bateria_sim) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/bateria_sim) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/bateria_sim) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/bateria_sim) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bateria_sim' with type 'ros.ament_python' and name 'bateria_sim'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/emulador_sensores) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/emulador_sensores) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/emulador_sensores) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/emulador_sensores) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/emulador_sensores) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/emulador_sensores) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/emulador_sensores) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/emulador_sensores) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/emulador_sensores) by extension 'ros'
+[0.461s] DEBUG:colcon.colcon_core.package_identification:Package 'src/emulador_sensores' with type 'ros.ament_python' and name 'emulador_sensores'
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.508s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/lu/ros2_ws/install
+[0.510s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/humble
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'bateria_sim' build argument 'cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'bateria_sim' build argument 'cmake_target' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'bateria_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'bateria_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'bateria_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'bateria_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'bateria_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'bateria_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'bateria_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.586s] DEBUG:colcon.colcon_core.verb:Building package 'bateria_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lu/ros2_ws/build/bateria_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lu/ros2_ws/install/bateria_sim', 'merge_install': False, 'path': '/home/lu/ros2_ws/src/bateria_sim', 'symlink_install': True, 'test_result_base': None}
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'emulador_sensores' build argument 'cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'emulador_sensores' build argument 'cmake_target' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'emulador_sensores' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'emulador_sensores' build argument 'cmake_clean_cache' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'emulador_sensores' build argument 'cmake_clean_first' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'emulador_sensores' build argument 'cmake_force_configure' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'emulador_sensores' build argument 'ament_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'emulador_sensores' build argument 'catkin_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'emulador_sensores' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.586s] DEBUG:colcon.colcon_core.verb:Building package 'emulador_sensores' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lu/ros2_ws/build/emulador_sensores', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lu/ros2_ws/install/emulador_sensores', 'merge_install': False, 'path': '/home/lu/ros2_ws/src/emulador_sensores', 'symlink_install': True, 'test_result_base': None}
+[0.586s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.587s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.588s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lu/ros2_ws/src/bateria_sim' with build type 'ament_python'
+[0.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('bateria_sim', 'ament_prefix_path')
+[0.591s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lu/ros2_ws/install/bateria_sim/share/bateria_sim/hook/ament_prefix_path.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lu/ros2_ws/install/bateria_sim/share/bateria_sim/hook/ament_prefix_path.dsv'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lu/ros2_ws/install/bateria_sim/share/bateria_sim/hook/ament_prefix_path.sh'
+[0.594s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.594s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.600s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lu/ros2_ws/src/emulador_sensores' with build type 'ament_python'
+[0.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('emulador_sensores', 'ament_prefix_path')
+[0.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lu/ros2_ws/install/emulador_sensores/share/emulador_sensores/hook/ament_prefix_path.ps1'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lu/ros2_ws/install/emulador_sensores/share/emulador_sensores/hook/ament_prefix_path.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lu/ros2_ws/install/emulador_sensores/share/emulador_sensores/hook/ament_prefix_path.sh'
+[0.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.049s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lu/ros2_ws/src/bateria_sim'
+[1.050s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.050s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.366s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lu/ros2_ws/src/emulador_sensores'
+[1.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.121s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: clean, install_data, build, build_scripts, extract_messages, bdist, bdist_dumb, alias, dist_info, install_lib, easy_install, bdist_rpm, init_catalog, setopt, bdist_egg, compile_catalog, update_catalog, check, upload_docs, test, rotate, symlink_data, build_ext, build_py, develop, upload, install_headers, register, install_egg_info, build_clib, saveopts, sdist, install_scripts, install, egg_info
+[2.154s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: clean, install_data, build, build_scripts, extract_messages, bdist, bdist_dumb, alias, dist_info, install_lib, easy_install, bdist_rpm, init_catalog, setopt, bdist_egg, compile_catalog, update_catalog, check, upload_docs, test, rotate, symlink_data, build_ext, build_py, develop, upload, install_headers, register, install_egg_info, build_clib, saveopts, sdist, install_scripts, install, egg_info
+[2.531s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --user, --install-dir, --index-url, --editable, --no-user-cfg, --install-layout, --exclude-scripts, --always-unzip, --zip-ok, --force-installation-into-system-dir, --prefix, --egg-path, --optimize, --no-find-links, --help, --build-directory, --dry-run, --find-links, --version, --upgrade, --verbose, --allow-hosts, --multi-version, --script-dir, --no-deps, --always-copy, --record, --local-snapshots-ok, --uninstall, --quiet, --site-dirs
+[2.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lu/ros2_ws/build/emulador_sensores': PYTHONPATH=/home/lu/ros2_ws/build/emulador_sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lu/ros2_ws/build/emulador_sensores/build --no-deps symlink_data
+[2.631s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --user, --install-dir, --index-url, --editable, --no-user-cfg, --install-layout, --exclude-scripts, --always-unzip, --zip-ok, --force-installation-into-system-dir, --prefix, --egg-path, --optimize, --no-find-links, --help, --build-directory, --dry-run, --find-links, --version, --upgrade, --verbose, --allow-hosts, --multi-version, --script-dir, --no-deps, --always-copy, --record, --local-snapshots-ok, --uninstall, --quiet, --site-dirs
+[2.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lu/ros2_ws/build/bateria_sim': PYTHONPATH=/home/lu/ros2_ws/build/bateria_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lu/ros2_ws/build/bateria_sim/build --no-deps symlink_data
+[3.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('emulador_sensores', 'pythonpath_develop')
+[3.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lu/ros2_ws/build/emulador_sensores/share/emulador_sensores/hook/pythonpath_develop.ps1'
+[3.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lu/ros2_ws/build/emulador_sensores' returned '0': PYTHONPATH=/home/lu/ros2_ws/build/emulador_sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lu/ros2_ws/build/emulador_sensores/build --no-deps symlink_data
+[3.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lu/ros2_ws/build/emulador_sensores/share/emulador_sensores/hook/pythonpath_develop.dsv'
+[3.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lu/ros2_ws/build/emulador_sensores/share/emulador_sensores/hook/pythonpath_develop.sh'
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/emulador_sensores' for CMake module files
+[3.149s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/emulador_sensores' for CMake config files
+[3.150s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/emulador_sensores/lib'
+[3.150s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/emulador_sensores/bin'
+[3.150s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/emulador_sensores/lib/pkgconfig/emulador_sensores.pc'
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages'
+[3.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('emulador_sensores', 'pythonpath')
+[3.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lu/ros2_ws/install/emulador_sensores/share/emulador_sensores/hook/pythonpath.ps1'
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lu/ros2_ws/install/emulador_sensores/share/emulador_sensores/hook/pythonpath.dsv'
+[3.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lu/ros2_ws/install/emulador_sensores/share/emulador_sensores/hook/pythonpath.sh'
+[3.153s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/emulador_sensores/bin'
+[3.154s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(emulador_sensores)
+[3.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/lu/ros2_ws/install/emulador_sensores/share/emulador_sensores/package.ps1'
+[3.155s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lu/ros2_ws/install/emulador_sensores/share/emulador_sensores/package.dsv'
+[3.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/lu/ros2_ws/install/emulador_sensores/share/emulador_sensores/package.sh'
+[3.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/lu/ros2_ws/install/emulador_sensores/share/emulador_sensores/package.bash'
+[3.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/lu/ros2_ws/install/emulador_sensores/share/emulador_sensores/package.zsh'
+[3.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lu/ros2_ws/install/emulador_sensores/share/colcon-core/packages/emulador_sensores)
+[3.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('bateria_sim', 'pythonpath_develop')
+[3.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lu/ros2_ws/build/bateria_sim' returned '0': PYTHONPATH=/home/lu/ros2_ws/build/bateria_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lu/ros2_ws/build/bateria_sim/build --no-deps symlink_data
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lu/ros2_ws/build/bateria_sim/share/bateria_sim/hook/pythonpath_develop.ps1'
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lu/ros2_ws/build/bateria_sim/share/bateria_sim/hook/pythonpath_develop.dsv'
+[3.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lu/ros2_ws/build/bateria_sim/share/bateria_sim/hook/pythonpath_develop.sh'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/bateria_sim' for CMake module files
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/bateria_sim' for CMake config files
+[3.217s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/bateria_sim/lib'
+[3.217s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/bateria_sim/bin'
+[3.217s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/bateria_sim/lib/pkgconfig/bateria_sim.pc'
+[3.217s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages'
+[3.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('bateria_sim', 'pythonpath')
+[3.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lu/ros2_ws/install/bateria_sim/share/bateria_sim/hook/pythonpath.ps1'
+[3.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lu/ros2_ws/install/bateria_sim/share/bateria_sim/hook/pythonpath.dsv'
+[3.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lu/ros2_ws/install/bateria_sim/share/bateria_sim/hook/pythonpath.sh'
+[3.221s] Level 1:colcon.colcon_core.environment:checking '/home/lu/ros2_ws/install/bateria_sim/bin'
+[3.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bateria_sim)
+[3.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/lu/ros2_ws/install/bateria_sim/share/bateria_sim/package.ps1'
+[3.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lu/ros2_ws/install/bateria_sim/share/bateria_sim/package.dsv'
+[3.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/lu/ros2_ws/install/bateria_sim/share/bateria_sim/package.sh'
+[3.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/lu/ros2_ws/install/bateria_sim/share/bateria_sim/package.bash'
+[3.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/lu/ros2_ws/install/bateria_sim/share/bateria_sim/package.zsh'
+[3.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lu/ros2_ws/install/bateria_sim/share/colcon-core/packages/bateria_sim)
+[3.227s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.227s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.227s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.227s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.235s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.254s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.255s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lu/ros2_ws/install/local_setup.ps1'
+[3.257s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lu/ros2_ws/install/_local_setup_util_ps1.py'
+[3.260s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lu/ros2_ws/install/setup.ps1'
+[3.263s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lu/ros2_ws/install/local_setup.sh'
+[3.265s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lu/ros2_ws/install/_local_setup_util_sh.py'
+[3.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lu/ros2_ws/install/setup.sh'
+[3.270s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lu/ros2_ws/install/local_setup.bash'
+[3.271s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lu/ros2_ws/install/setup.bash'
+[3.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lu/ros2_ws/install/local_setup.zsh'
+[3.275s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lu/ros2_ws/install/setup.zsh'

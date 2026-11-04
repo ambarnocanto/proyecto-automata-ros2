@@ -28,7 +28,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'bateria_sim_node = bateria_sim.bateria_sim_node:main',
-        ],
-    },
+        'bateria_sim_node = bateria_sim.bateria_sim_node:main',
+        'nodo_supervisor = bateria_sim.nodo_supervisor:main',
+    ],
+},
 )

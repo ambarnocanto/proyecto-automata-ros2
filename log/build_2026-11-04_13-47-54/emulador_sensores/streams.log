@@ -1,0 +1,17 @@
+[1.934s] Invoking command in '/home/lu/ros2_ws/build/emulador_sensores': PYTHONPATH=/home/lu/ros2_ws/build/emulador_sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lu/ros2_ws/build/emulador_sensores/build --no-deps symlink_data
+[2.297s] running develop
+[2.494s] running egg_info
+[2.495s] writing emulador_sensores.egg-info/PKG-INFO
+[2.495s] writing dependency_links to emulador_sensores.egg-info/dependency_links.txt
+[2.495s] writing entry points to emulador_sensores.egg-info/entry_points.txt
+[2.496s] writing requirements to emulador_sensores.egg-info/requires.txt
+[2.496s] writing top-level names to emulador_sensores.egg-info/top_level.txt
+[2.498s] reading manifest file 'emulador_sensores.egg-info/SOURCES.txt'
+[2.499s] writing manifest file 'emulador_sensores.egg-info/SOURCES.txt'
+[2.501s] running build_ext
+[2.501s] Creating /home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages/emulador-sensores.egg-link (link to .)
+[2.502s] Installing emulador_sensores_node script to /home/lu/ros2_ws/install/emulador_sensores/lib/emulador_sensores
+[2.502s] 
+[2.502s] Installed /home/lu/ros2_ws/build/emulador_sensores
+[2.502s] running symlink_data
+[2.540s] Invoked command in '/home/lu/ros2_ws/build/emulador_sensores' returned '0': PYTHONPATH=/home/lu/ros2_ws/build/emulador_sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lu/ros2_ws/build/emulador_sensores/build --no-deps symlink_data
