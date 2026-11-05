@@ -1,0 +1,25 @@
+retorno_tabla:
+  - punto_id: 1
+    coordenadas: [1.00, 0.80]
+    d_base: 0.40
+    sentido_retorno: "continuar"
+  - punto_id: 2
+    coordenadas: [4.00, 0.80]
+    d_base: 3.17
+    sentido_retorno: "continuar"
+  - punto_id: 3
+    coordenadas: [4.50, 2.50]
+    d_base: 4.96
+    sentido_retorno: "continuar"
+  - punto_id: 4
+    coordenadas: [4.00, 4.20]
+    d_base: 6.53
+    sentido_retorno: "continuar"
+  - punto_id: 5
+    coordenadas: [2.50, 4.50]
+    d_base: 5.51
+    sentido_retorno: "continuar"
+  - punto_id: 6
+    coordenadas: [1.00, 4.20]
+    d_base: 3.88
+    sentido_retorno: "continuar"
