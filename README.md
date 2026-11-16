@@ -22,5 +22,7 @@ cd ~/ros2_ws
 colcon build
 source install/setup.bash
 
-# Lanzar simulación completa con supervisión predictiva LSTM
-ros2 launch bateria_sim simulacion_patrullaje.launch.py
+# Ejecutar los nodos principales en terminales independientes (tras lanzar Gazebo y controlador_pared)
+ros2 run bateria_sim bateria_sim_node
+ros2 run bateria_sim predictor_autonomia
+ros2 run bateria_sim nodo_supervisor
