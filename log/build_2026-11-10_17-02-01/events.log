@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.005017] (-) JobUnselected: {'identifier': 'emulador_sensores'}
+[0.005326] (bateria_sim) JobQueued: {'identifier': 'bateria_sim', 'dependencies': OrderedDict()}
+[0.009917] (bateria_sim) JobStarted: {'identifier': 'bateria_sim'}
+[0.093828] (-) TimerEvent: {}
+[0.198903] (-) TimerEvent: {}
+[0.302620] (-) TimerEvent: {}
+[0.407785] (-) TimerEvent: {}
+[0.511833] (-) TimerEvent: {}
+[0.615157] (-) TimerEvent: {}
+[0.722168] (-) TimerEvent: {}
+[0.828867] (-) TimerEvent: {}
+[0.932409] (-) TimerEvent: {}
+[1.039152] (-) TimerEvent: {}
+[1.142040] (-) TimerEvent: {}
+[1.242876] (-) TimerEvent: {}
+[1.344269] (-) TimerEvent: {}
+[1.447476] (-) TimerEvent: {}
+[1.548267] (-) TimerEvent: {}
+[1.649506] (-) TimerEvent: {}
+[1.750135] (-) TimerEvent: {}
+[1.853374] (-) TimerEvent: {}
+[1.954046] (-) TimerEvent: {}
+[2.056869] (-) TimerEvent: {}
+[2.161023] (-) TimerEvent: {}
+[2.262883] (-) TimerEvent: {}
+[2.367575] (-) TimerEvent: {}
+[2.468918] (-) TimerEvent: {}
+[2.572906] (-) TimerEvent: {}
+[2.673996] (-) TimerEvent: {}
+[2.775390] (-) TimerEvent: {}
+[2.876677] (-) TimerEvent: {}
+[2.981731] (-) TimerEvent: {}
+[3.083744] (-) TimerEvent: {}
+[3.185733] (-) TimerEvent: {}
+[3.289865] (-) TimerEvent: {}
+[3.392897] (-) TimerEvent: {}
+[3.502123] (-) TimerEvent: {}
+[3.539584] (bateria_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bateria_sim', 'build', '--build-base', '/home/lu/ros2_ws/build/bateria_sim/build', 'install', '--record', '/home/lu/ros2_ws/build/bateria_sim/install.log', '--install-scripts', '$base/lib/bateria_sim', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lu/ros2_ws/src/bateria_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lu'), ('OLDPWD', '/home/lu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1256'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lu-virtual-machine:@/tmp/.ICE-unix/1220,unix/lu-virtual-machine:/tmp/.ICE-unix/1220'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2d94b8e1_6e05_4b80_91fa_f075e53e0224'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E8OLY3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.319'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lu/ros2_ws/install/emulador_sensores:/home/lu/ros2_ws/install/bateria_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lu/ros2_ws/build/bateria_sim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lu/ros2_ws/build/bateria_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:/home/lu/ros2_ws/install/emulador_sensores/lib/python3.10/site-packages:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[3.602922] (-) TimerEvent: {}
+[3.707388] (-) TimerEvent: {}
+[3.811259] (-) TimerEvent: {}
+[3.912556] (-) TimerEvent: {}
+[4.015756] (-) TimerEvent: {}
+[4.117288] (-) TimerEvent: {}
+[4.218794] (-) TimerEvent: {}
+[4.321836] (-) TimerEvent: {}
+[4.423573] (-) TimerEvent: {}
+[4.528050] (-) TimerEvent: {}
+[4.630110] (-) TimerEvent: {}
+[4.645402] (bateria_sim) StdoutLine: {'line': b'running egg_info\n'}
+[4.647951] (bateria_sim) StdoutLine: {'line': b'writing ../../build/bateria_sim/bateria_sim.egg-info/PKG-INFO\n'}
+[4.649902] (bateria_sim) StdoutLine: {'line': b'writing dependency_links to ../../build/bateria_sim/bateria_sim.egg-info/dependency_links.txt\n'}
+[4.653586] (bateria_sim) StdoutLine: {'line': b'writing entry points to ../../build/bateria_sim/bateria_sim.egg-info/entry_points.txt\n'}
+[4.655332] (bateria_sim) StdoutLine: {'line': b'writing requirements to ../../build/bateria_sim/bateria_sim.egg-info/requires.txt\n'}
+[4.655952] (bateria_sim) StdoutLine: {'line': b'writing top-level names to ../../build/bateria_sim/bateria_sim.egg-info/top_level.txt\n'}
+[4.667655] (bateria_sim) StdoutLine: {'line': b"reading manifest file '../../build/bateria_sim/bateria_sim.egg-info/SOURCES.txt'\n"}
+[4.673696] (bateria_sim) StdoutLine: {'line': b"writing manifest file '../../build/bateria_sim/bateria_sim.egg-info/SOURCES.txt'\n"}
+[4.683412] (bateria_sim) StdoutLine: {'line': b'running build\n'}
+[4.683804] (bateria_sim) StdoutLine: {'line': b'running build_py\n'}
+[4.683913] (bateria_sim) StdoutLine: {'line': b'running install\n'}
+[4.684015] (bateria_sim) StdoutLine: {'line': b'running install_lib\n'}
+[4.687624] (bateria_sim) StdoutLine: {'line': b'running install_data\n'}
+[4.688169] (bateria_sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.696044] (bateria_sim) StdoutLine: {'line': b"removing '/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[4.697874] (bateria_sim) StdoutLine: {'line': b'Copying ../../build/bateria_sim/bateria_sim.egg-info to /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim-0.1.0-py3.10.egg-info\n'}
+[4.702812] (bateria_sim) StdoutLine: {'line': b'running install_scripts\n'}
+[4.732217] (-) TimerEvent: {}
+[4.828447] (bateria_sim) StdoutLine: {'line': b'Installing bateria_sim_node script to /home/lu/ros2_ws/install/bateria_sim/lib/bateria_sim\n'}
+[4.832479] (bateria_sim) StdoutLine: {'line': b'Installing nodo_supervisor script to /home/lu/ros2_ws/install/bateria_sim/lib/bateria_sim\n'}
+[4.833142] (-) TimerEvent: {}
+[4.837174] (bateria_sim) StdoutLine: {'line': b"writing list of installed files to '/home/lu/ros2_ws/build/bateria_sim/install.log'\n"}
+[4.933634] (-) TimerEvent: {}
+[5.014561] (bateria_sim) CommandEnded: {'returncode': 0}
+[5.037885] (-) TimerEvent: {}
+[5.100562] (bateria_sim) JobEnded: {'identifier': 'bateria_sim', 'rc': 0}
+[5.106852] (-) EventReactorShutdown: {}

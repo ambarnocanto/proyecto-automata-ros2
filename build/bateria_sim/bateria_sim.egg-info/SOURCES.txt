@@ -11,11 +11,8 @@ setup.py
 bateria_sim/__init__.py
 bateria_sim/bateria_sim_node.py
 bateria_sim/nodo_supervisor.py
-bateria_sim.egg-info/PKG-INFO
-bateria_sim.egg-info/SOURCES.txt
-bateria_sim.egg-info/dependency_links.txt
-bateria_sim.egg-info/entry_points.txt
-bateria_sim.egg-info/requires.txt
-bateria_sim.egg-info/top_level.txt
-bateria_sim.egg-info/zip-safe
+bateria_sim/predictor_autonomia_node.py
 resource/bateria_sim
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

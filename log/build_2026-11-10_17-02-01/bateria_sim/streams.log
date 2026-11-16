@@ -1,0 +1,22 @@
+[3.578s] Invoking command in '/home/lu/ros2_ws/src/bateria_sim': PYTHONPATH=/home/lu/ros2_ws/build/bateria_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bateria_sim build --build-base /home/lu/ros2_ws/build/bateria_sim/build install --record /home/lu/ros2_ws/build/bateria_sim/install.log --install-scripts $base/lib/bateria_sim --single-version-externally-managed install_data
+[4.636s] running egg_info
+[4.638s] writing ../../build/bateria_sim/bateria_sim.egg-info/PKG-INFO
+[4.640s] writing dependency_links to ../../build/bateria_sim/bateria_sim.egg-info/dependency_links.txt
+[4.644s] writing entry points to ../../build/bateria_sim/bateria_sim.egg-info/entry_points.txt
+[4.646s] writing requirements to ../../build/bateria_sim/bateria_sim.egg-info/requires.txt
+[4.646s] writing top-level names to ../../build/bateria_sim/bateria_sim.egg-info/top_level.txt
+[4.658s] reading manifest file '../../build/bateria_sim/bateria_sim.egg-info/SOURCES.txt'
+[4.664s] writing manifest file '../../build/bateria_sim/bateria_sim.egg-info/SOURCES.txt'
+[4.674s] running build
+[4.674s] running build_py
+[4.674s] running install
+[4.674s] running install_lib
+[4.678s] running install_data
+[4.678s] running install_egg_info
+[4.686s] removing '/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim-0.1.0-py3.10.egg-info' (and everything under it)
+[4.689s] Copying ../../build/bateria_sim/bateria_sim.egg-info to /home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages/bateria_sim-0.1.0-py3.10.egg-info
+[4.693s] running install_scripts
+[4.819s] Installing bateria_sim_node script to /home/lu/ros2_ws/install/bateria_sim/lib/bateria_sim
+[4.823s] Installing nodo_supervisor script to /home/lu/ros2_ws/install/bateria_sim/lib/bateria_sim
+[4.830s] writing list of installed files to '/home/lu/ros2_ws/build/bateria_sim/install.log'
+[5.005s] Invoked command in '/home/lu/ros2_ws/src/bateria_sim' returned '0': PYTHONPATH=/home/lu/ros2_ws/build/bateria_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lu/ros2_ws/install/bateria_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bateria_sim build --build-base /home/lu/ros2_ws/build/bateria_sim/build install --record /home/lu/ros2_ws/build/bateria_sim/install.log --install-scripts $base/lib/bateria_sim --single-version-externally-managed install_data

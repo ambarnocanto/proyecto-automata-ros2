@@ -10,11 +10,7 @@ setup.py
 ../../build/emulador_sensores/emulador_sensores.egg-info/zip-safe
 emulador_sensores/__init__.py
 emulador_sensores/emulador_sensores_node.py
-emulador_sensores.egg-info/PKG-INFO
-emulador_sensores.egg-info/SOURCES.txt
-emulador_sensores.egg-info/dependency_links.txt
-emulador_sensores.egg-info/entry_points.txt
-emulador_sensores.egg-info/requires.txt
-emulador_sensores.egg-info/top_level.txt
-emulador_sensores.egg-info/zip-safe
 resource/emulador_sensores
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
