@@ -24,8 +24,3 @@ source install/setup.bash
 
 # Lanzar simulación completa con supervisión predictiva LSTM
 ros2 launch bateria_sim simulacion_patrullaje.launch.py
-git add README.md .controlador_pared.py.swp
-git commit -m "Actualizar README final con arquitectura completa y guia de ejecucion"
-git tag -f -a final -m "Entrega final simulacion Proyecto 3"
-git push origin main
-git push -f origin final
